@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+div{
+    margin-left: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+label{
+    font-weight: 700;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+li {
+    margin: 3px 0 0 20px;
+    padding: 5px;
+    width: 150px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+li:hover {
+    background: #888;
+    color: #f0f0f0;
+}
+button {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
